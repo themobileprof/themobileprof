@@ -168,6 +168,13 @@ iframe {
   line-height: 30px;
   padding-left: 0;
 }
+.hidlist li ul li{
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif !important;
+  line-height: 20px;
+  padding-left: 0;
+}
 .hidlist li i, .hidlist div i{
   margin-right: 5px;
   color: #e566e8;
