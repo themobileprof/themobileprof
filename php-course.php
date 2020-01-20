@@ -18,7 +18,7 @@
     <meta name="description" content="">
     <meta name="author" content="Samuel Anyaele">
 
-    <title>Website Design Training</title>
+    <title>The PHP backend Mobile Dev Course</title>
 
     
 
@@ -50,19 +50,14 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="website-design-nigeria.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Website Design</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          		<a class="dropdown-item" href="website-design-spread-payment.html">Spread Payment</a>
-          		<a class="dropdown-item" href="wordpress-management.html">Wordpress Blog</a>
-          		<a class="dropdown-item" href="online-payment.html">Naira and Dollar Pay setup</a>
-        		</div>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="training.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+                        <a class="nav-link dropdown-toggle" href="training.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Backend Courses</a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          		<a class="dropdown-item" href="website-design-training.html">Mobile Web Design Classes</a>
-          		<a class="dropdown-item" href="mobile-professional.php">Office on Mobile</a>
-          		<a class="dropdown-item" href="academy.html">Academy videos</a>
+          		<a class="dropdown-item" href="php-course.php">Backend with PHP</a>
+          		<a class="dropdown-item" href="javascript-course.php">Backend with JavaScript</a>
+          		<a class="dropdown-item" href="python-course.php">Backend with Python</a>
         		</div>
                     </li>
                     <li class="nav-item">
@@ -80,7 +75,7 @@
     <div class="container pb-5">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Professional Web Design Training
+      <h1 class="mt-4 mb-3">Professional backend development with PHP
       </h1>
 
       <ol class="breadcrumb">
@@ -88,9 +83,9 @@
           <a href="index.html">Home</a>
         </li>
         <li class="breadcrumb-item">
-          <a href="training.html">Training</a>
+          <a href="training.html">Backend Courses</a>
         </li>
-        <li class="breadcrumb-item active">Web Design Training</li>
+        <li class="breadcrumb-item active">PHP</li>
       </ol>
 
       <!-- Portfolio Item Row -->
@@ -99,7 +94,7 @@
         <div class="col-md-8">
           <div class="row">
             <p class="firstp">
-              The <strong class="text-primary">Mobile Web Design Course</strong> is a one of a kind novel approach to teaching web development. Harnessing Africa's massive mobile phone penetration, we are building an academy (online and offline) that empowers youths with Tech skills required to become world class developers.
+              Why PHP? You may ask. Well, according to W3Techs' data, PHP is used by 78.9% of all websites with a known server-side programming language. So almost 8 out of every 10 websites that you visit on the Internet are using PHP in some way. That means there is plenty of work to do. By taking this course in PHP, you'll be immediately able to work with and customize these websites. Software built with php include Favebook, Baidu, Wordpress, Yahoo, Wikipedia, Canva and many more really popular platforms.
               <div class="row p-3">
 		      <p>
 <strong>TRACK 1:</strong> Curriculum for the Mobile Website design Class
