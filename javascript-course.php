@@ -187,7 +187,7 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
 
           <div id="details" class="row mt-4 mb-4">
             <div class="bg-primary col-md-12 text-white pt-3 mb-3 rounded-top">
-              <h3 class="text-light">Prerequisite: Cloud Server</h3>
+              <h3 class="text-light">Free Classes</h3>
             </div>
             <div class="col-md-7">
               <div>
@@ -204,8 +204,8 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
               <h3>Register for the MobileDev class below</h3>
 	      <!-- <div data-toggle="modal" data-target="#payModal"> -->
 		      <div>
-<a onclick="return gtag_report_conversion('https://wa.me/2348153039003');" href="https://wa.me/2348153039003" class="btn btn-success m-1">
-                WhatsApp us to Register for Class</a>
+<a onclick="return  href="tel:+2348153039003" class="btn btn-primary m-1 text-white">
+                Call us to Register</a>
               </div>
               
      
@@ -218,18 +218,21 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
 
 <!--cloud card-->
 
-<div class="card" "row mb-4 mt-4">
-        <div class="card-header">Prerequisite: Cloud Server</div>
-	<div class="class-body" "p-2">
-	<h5 class="card-title">Cloud Service in partnership with Seonigeria.com</h5>
+<div class="card row mb-4 mt-4">
+        <div class="card-header"><h3>Prerequisite: Cloud Server</h3></div>
+	<div class="card-body">
+	<h5 class="card-title"><strong>Cloud Service in partnership with Seonigeria.com</strong></h5>
                 <p class="card-text">
-The student cloud accounts will be used to save all the projects and assignments taken during the two (2) months in the class and other projects that the students will continue to handle  inthe future. <br> <strong>One(1) year managed cloud hosting for N54,000/Annum.</strong>
+The student cloud accounts will be used to save all the projects and assignments taken during the two (2) months in the class and other projects that the students will continue to handle  inthe future. <br> <strong>One(1) year managed cloud hosting for N54,000/Annum.</strong></p>
 		<a class="btn btn-success" "m-1" href="#">Purchase Now and Save N18,000</a>
-<p>Or pay N18,000 quarterly(every 3 months)</p>
+<p>Or</p>
+		<a class="btn btn-success" "m-1" href="#"> Pay N18,000 quarterly
+</a>
+<p>(every 3 months)</p>
         </div>
 </div>
 
-          <img class="img-fluid" src="assets/website-design.png" alt="Mobile Productivity Training">
+          <img class="img-fluid" src="./assets/image-2.jpg" alt="Girl with phone">
 
 
           <!-- Related Projects Row -->
@@ -252,7 +255,6 @@ You will no longer be terrified of the black screen of the Linux terminal</div>
               <div><i class="fa fa-check-square text-primary"></i>Connect into and work in your Cloud Server through SSH and SFTP</div>
               <div><i class="fa fa-check-square text-primary"></i>Learn how to use command line editors for web application development, giving you the skills to work in most computers you login to, physically or remotely</div>
               <div><i class="fa fa-check-square text-primary"></i>Master how to develop web applications with your Smartphone - using Termux, NEOVim, and mobile browsers</div>
-              <div><i class="fa fa-check-square text-primary"></i>Learn how to test your web pages for multiple screen sizes while developing on Mobile</div>
               <div><i class="fa fa-check-square text-primary"></i>Use git and github as version control system and remote repo to manage updates on your web application</div>
 		<div>
 		
