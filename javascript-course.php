@@ -47,23 +47,21 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="container">
+		<a class="navbar-brand" href="index.html"><img src="assets/banner.png" style="width: 150px;"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="website-design-nigeria.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Website Design</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          		<a class="dropdown-item" href="website-design-spread-payment.html">Spread Payment</a>
-          		<a class="dropdown-item" href="wordpress-management.html">Wordpress Blog</a>
-          		<a class="dropdown-item" href="online-payment.html">Naira and Dollar Pay setup</a>
-        		</div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
-                   <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="training.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          		<a class="dropdown-item" href="website-design-training.html">Mobile Web Design Classes</a>
-          		<a class="dropdown-item" href="mobile-professional.php">Office on Mobile</a>
-          		<a class="dropdown-item" href="academy.html">Academy videos</a>
-        		</div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="training.html">Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="academy.html">Academy Videos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
@@ -73,6 +71,7 @@
                     </li>
                 </ul>
             </div>
+        </div>
         </div>
     </nav>
 
@@ -90,7 +89,7 @@
         <li class="breadcrumb-item">
           <a href="training.html">Training</a>
         </li>
-        <li class="breadcrumb-item active">Web Design Training</li>
+        <li class="breadcrumb-item active">Javasript Backend</li>
       </ol>
 
       <!-- Portfolio Item Row -->
@@ -165,7 +164,7 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
                   <li><i class="fa fa-check-square"></i> SSH & SFTP
 			  <ul>
 				  <li>SSH grants you secure access to your server, and enables you control your Server via the command prompt. <br>
-					  SFTP is a secure tool for transfering files between your local device and your Cloud Server. <br>
+					  SFTP is a secure tool for transfering files between your local device and your Cloud Server.
 </li>
 			  </ul>
 		  </li>
@@ -175,9 +174,7 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
 			  </li>
                 </ul>
               </div>
-            </p>
-          
-          </div>
+                    </div>
           <div class="row bg-light rounded">
             <div class="col-md-6 col-md-6 p-0">
               <img src="assets/cellphone-man2.jpg" alt="Office Presentation" class="img-fluid rounded">
@@ -187,7 +184,7 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
 
           <div id="details" class="row mt-4 mb-4">
             <div class="bg-primary col-md-12 text-white pt-3 mb-3 rounded-top">
-              <h3 class="text-light">Free Classes</h3>
+              <h3 class="text-light"> May to June Free Classes</h3>
             </div>
             <div class="col-md-7">
               <div>
@@ -223,7 +220,7 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
 	<div class="card-body">
 	<h5 class="card-title"><strong>Cloud Service in partnership with Seonigeria.com</strong></h5>
                 <p class="card-text">
-The student cloud accounts will be used to save all the projects and assignments taken during the two (2) months in the class and other projects that the students will continue to handle  inthe future. <br> <strong>One(1) year managed cloud hosting for N54,000/Annum.</strong></p>
+The student cloud accounts will be used to save all the projects and assignments taken during the two (2) months in the class and other projects that the students will continue to handle in the future. <br> <strong>One(1) year managed cloud hosting for N54,000/Annum.</strong></p>
 		<a class="btn btn-success" "m-1" href="#">Purchase Now and Save N18,000</a>
 <p>Or</p>
 		<a class="btn btn-success" "m-1" href="#"> Pay N18,000 quarterly
