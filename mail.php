@@ -8,7 +8,9 @@ function test_input($data) {
 }
 
 function sendMail (){
-    $to = 'samuelanyaele@gmail.com';
+
+    $to = 'themobileprof.com@gmail.com';
+
     $name = test_input($_POST["name"]);
     $email = test_input($_POST["email"]);
     $phone= test_input($_POST["phone"]);
