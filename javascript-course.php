@@ -47,23 +47,21 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="container">
+		<a class="navbar-brand" href="index.html"><img src="assets/banner.png" style="width: 150px;"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="website-design-nigeria.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Website Design</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          		<a class="dropdown-item" href="website-design-spread-payment.html">Spread Payment</a>
-          		<a class="dropdown-item" href="wordpress-management.html">Wordpress Blog</a>
-          		<a class="dropdown-item" href="online-payment.html">Naira and Dollar Pay setup</a>
-        		</div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
-                   <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="training.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          		<a class="dropdown-item" href="website-design-training.html">Mobile Web Design Classes</a>
-          		<a class="dropdown-item" href="mobile-professional.php">Office on Mobile</a>
-          		<a class="dropdown-item" href="academy.html">Academy videos</a>
-        		</div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="training.html">Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="academy.html">Academy Videos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
@@ -74,13 +72,14 @@
                 </ul>
             </div>
         </div>
+        </div>
     </nav>
 
     <!-- Page Content -->
     <div class="container pb-5">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Professional Web Design Training
+      <h1 class="mt-4 mb-3">Javasript Backend Training
       </h1>
 
       <ol class="breadcrumb">
@@ -90,7 +89,7 @@
         <li class="breadcrumb-item">
           <a href="training.html">Training</a>
         </li>
-        <li class="breadcrumb-item active">Web Design Training</li>
+        <li class="breadcrumb-item active">Javasript Backend</li>
       </ol>
 
       <!-- Portfolio Item Row -->
@@ -99,13 +98,38 @@
         <div class="col-md-8">
           <div class="row">
             <p class="firstp">
-              The <strong class="text-primary">Mobile Web Design Course</strong> is a one of a kind novel approach to teaching web development. Harnessing Africa's massive mobile phone penetration, we are building an academy (online and offline) that empowers youths with Tech skills required to become world class developers.
-              <div class="row p-3">
+	       <strong class="text-primary">Javasript</strong> is one of the most popular computer programming languages to learn today. It is easier to learn than most other programming languages and is used to design websites, build mobile applications, online games, analyze data and even program robots. And because it is popular, there are several groups round the world that support and assist people learning javascript. This active community helps to encourage collaboration amongst developers, provide mentoring for beginners and help to provide jobs and internship opportunities.
+	      <table class="table table-bordered">
+		<thead class="thead-dark">
+			<tr>
+				<th>8 Weeks</th>
+				<th>Topics</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Week 1</td>
+				<td>Linux and Neovim</td>
+
+			</tr>
+			<tr>
+				<td>Week 2</td>
+				<td>FTP and SQL</td>
+			</tr>
+<tr>                                                      <td>Week 3</td>                                        <td>Git and Github</td>                                                                                                             </tr> 
+<tr>                                                      <td>Week 4</td>                                        <td>Javasript Introductions and Elements</td>                                                                                                             </tr> <tr>                                                      <td>Week 5</td>                                        <td>Javasript Expressions and Loops</td>                                                                                                             </tr> 
+<tr>                                                      <td>Week 6</td>                                        <td>Javasript Namespace and Functions</td>                                                                                             </tr>
+<tr>                                                      <td>Week 7</td>                                        <td>Javasript Classes and Objects</td>                                                                                                              </tr>
+<tr>                                                      <td>Week 8</td>                                        <td>Database Integration</td>                                                                                                       </tr>
+
+	</tbody>
+		
+		</table>
+		<div class="row p-3">
 		      <p>
-<strong>TRACK 1:</strong> Curriculum for the Mobile Website design Class
+ A brief introduction of the topics that will be covered during the training.
 		      </p>
 		      <ul class="hidlist col-md-9 col-12">
-                  <li><i class="fa fa-check-square"></i>Introduction to the Internet</li>
                   <li><i class="fa fa-check-square"></i> Termux and The Linux command prompt
 			  <ul>
 			  	<li>The terminal is usually an intimidating interface for people coming from Windows, but as a developer, you should feel completely at home writing commands on a black screen.
@@ -121,34 +145,12 @@ Plus the bragging rights!
 </li>
 			  </ul>
 		  </li>
-                  <li><i class="fa fa-check-square"></i> HTML 5
-			  <ul>
-				  <li>Knowledge of HTML is a required basic for anyone interested in modern software development, considering the ubiquity of the web. <br>
-					  Whether you are eventually going to use Javascript, PHP or Python, without html there is nothing to display on a browser. <br>
-Most Tech schools would expect some knowledge of HTML as minimum requirement for admission.
-</li>
-			  </ul>
-		  </li>
-                  <li><i class="fa fa-check-square"></i> CSS 3
-			  <ul>
-			  	<li>Knowledge of modern Cascading Style Sheets is important for webpage presentations.
-<br>
-Thanks to CSS Frameworks like Bootstrap, it is now easier to develop beautiful Views for web applications
-</li>
-			  </ul>
-		  </li>
 
                   <li><i class="fa fa-check-square"></i> JavaScript
 			  <ul>
 				  <li>Javascript is termed the programming language of the web. <br>
 Introductions to Javascript (Vanilla) gives you not just the skills to develop dynamic web pages, but also the base to learn other JavaScript Frameworks like React, Vue, Angular or any other JS frameworks that would be developed in the Future.
 </li>
-			  </ul>
-		  </li>
-                  <li><i class="fa fa-check-square"></i> Bootstrap
-			  <ul>
-				  <li>Bootstrap is the most popular HTML, CSS, and JavaScript framework that is used to develop responsive, mobile-first websites. <br>
-				  It is used in building the frontend Interface for many other Tools and Frameworks. This includes Views for Wordpress, Drupal, Django, Laravel and other platforms. </li>
 			  </ul>
 		  </li>
                   <li><i class="fa fa-check-square"></i> Git & Github
@@ -162,38 +164,17 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
                   <li><i class="fa fa-check-square"></i> SSH & SFTP
 			  <ul>
 				  <li>SSH grants you secure access to your server, and enables you control your Server via the command prompt. <br>
-					  SFTP is a secure tool for transfering files between your local device and your Cloud Server. <br>
-					  We also do some Introduction to Heroku at this point.
+					  SFTP is a secure tool for transfering files between your local device and your Cloud Server.
 </li>
 			  </ul>
 		  </li>
 
-                  <li><i class="fa fa-check-square"></i> Microsoft Office 365 / Google G Suites
-			  <ul>
-				  <li>There is no better document processing tool on desktop than Microsoft office. <br>
-With MS Office 365 and Microsoft Cloud hosting (OneDrive), you can easily extend document processing work to your Mobile. That includes: Microsoft Word, Excel and Powerpoint.
-
-However, if you'll rather not use Microsoft Tools, we have a parallel track that will equip you with the same skillsets on Google Docs, Sheets, and Slides.
-</li>
-			  </ul>
-		  </li>
-
-			  <li><i class="fa fa-check-square"></i> Team Collaboration Tools
-				  <ul>
-					  <li>Smart developers do not work alone. These collaboration tools help you work smarter. <br>
-						  Slack (Communicate with the team & effectively keep track of the project). <br>
-						  Trello (Track each project on the Cloud). <br>
-						  Todoist (Coordinate your tasks with your team mates) <br>
-Evernote (A collaborative note taking app with Cloud integration)
-</li>
 				  </ul>
 
 			  </li>
                 </ul>
               </div>
-            </p>
-          
-          </div>
+                    </div>
           <div class="row bg-light rounded">
             <div class="col-md-6 col-md-6 p-0">
               <img src="assets/cellphone-man2.jpg" alt="Office Presentation" class="img-fluid rounded">
@@ -203,26 +184,25 @@ Evernote (A collaborative note taking app with Cloud integration)
 
           <div id="details" class="row mt-4 mb-4">
             <div class="bg-primary col-md-12 text-white pt-3 mb-3 rounded-top">
-              <h3 class="text-light">Partners subsidized web design training</h3>
+              <h3 class="text-light"> May to June Free Classes</h3>
             </div>
             <div class="col-md-7">
               <div>
-                <span class="display-4 text-primary mr-3">N36,500</span>
-                <del class="display-4 text-muted">N365,000</del>
+                <del class="display-4 text-muted">N50,000</del>
               </div>    
-              <ul class="list-group list-group-flush">
+	      <ul class="list-group list-group-flush">
                 <li class="list-group-item"><strong>Venue:</strong> 3 Thorborn Avenue, Sabo, Yaba</li>
                 <li class="list-group-item"><strong>Duration:</strong> 2 Months</li>
-		<li class="list-group-item"><strong>Days:</strong> Mondays, Tuesdays, Wednesdays</li>
-		<li class="list-group-item"><strong>Time:</strong> 10am - 2pm</li>
+		<li class="list-group-item"><strong>Days:</strong> Mondays to Friday(2 Hrs Daily)</li>
+		<li class="list-group-item"><strong>Time: Morning -</strong> 10am - 12Noon  <strong>  Afternoon -</strong> 1pm - 3pm </li>
               </ul>
             </div>
             <div class="benefits col-md-5">
               <h3>Register for the MobileDev class below</h3>
 	      <!-- <div data-toggle="modal" data-target="#payModal"> -->
 		      <div>
-<a onclick="return gtag_report_conversion('https://wa.me/2348153039003');" href="https://wa.me/2348153039003" class="btn btn-success m-1">
-                WhatsApp us to Register for Class</a>
+<a onclick="return  href="tel:+2348153039003" class="btn btn-primary m-1 text-white">
+                Call us to Register</a>
               </div>
               
      
@@ -233,16 +213,29 @@ Evernote (A collaborative note taking app with Cloud integration)
           </div>
 
 
+<!--cloud card-->
 
-          <img class="img-fluid" src="assets/website-design.png" alt="Mobile Productivity Training">
+<div class="card row mb-4 mt-4">
+        <div class="card-header"><h3>Prerequisite: Cloud Server</h3></div>
+	<div class="card-body">
+	<h5 class="card-title"><strong>Cloud Service in partnership with Seonigeria.com</strong></h5>
+                <p class="card-text">
+The student cloud accounts will be used to save all the projects and assignments taken during the two (2) months in the class and other projects that the students will continue to handle in the future. <br> <strong>One(1) year managed cloud hosting for N54,000/Annum.</strong></p>
+		<a class="btn btn-success" "m-1" href="#">Purchase Now and Save N18,000</a>
+<p>Or</p>
+		<a class="btn btn-success" "m-1" href="#"> Pay N18,000 quarterly
+</a>
+<p>(every 3 months)</p>
+        </div>
+</div>
+
+          <img class="img-fluid" src="./assets/image-2.jpg" alt="Girl with phone">
 
 
           <!-- Related Projects Row -->
       
-
-      
-
         </div>
+
 
         <div class="col-md-4">
 		<img src="assets/termux-screenshot.png" class="img-fluid">
@@ -257,10 +250,8 @@ Evernote (A collaborative note taking app with Cloud integration)
 You will no longer be terrified of the black screen of the Linux terminal</div>
               <div><i class="fa fa-check-square text-primary"></i>Learn how to manipulate files and directories within Linux on Mobile, Desktop, and Server</div>
               <div><i class="fa fa-check-square text-primary"></i>Connect into and work in your Cloud Server through SSH and SFTP</div>
-              <div><i class="fa fa-check-square text-primary"></i>Learn how to build and maintain websites with HTML and CSS</div>
               <div><i class="fa fa-check-square text-primary"></i>Learn how to use command line editors for web application development, giving you the skills to work in most computers you login to, physically or remotely</div>
               <div><i class="fa fa-check-square text-primary"></i>Master how to develop web applications with your Smartphone - using Termux, NEOVim, and mobile browsers</div>
-              <div><i class="fa fa-check-square text-primary"></i>Learn how to test your web pages for multiple screen sizes while developing on Mobile</div>
               <div><i class="fa fa-check-square text-primary"></i>Use git and github as version control system and remote repo to manage updates on your web application</div>
 		<div>
 		
@@ -275,8 +266,6 @@ You will no longer be terrified of the black screen of the Linux terminal</div>
       </div>
       <!-- /.row -->
 
-      
-    </div>
     <!-- /.container -->
 
     <!-- Pay Modal-->
@@ -296,6 +285,7 @@ You will no longer be terrified of the black screen of the Linux terminal</div>
         </div>
       </div>
     </div>
+
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
