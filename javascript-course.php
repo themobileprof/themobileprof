@@ -164,7 +164,9 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
                   <li><i class="fa fa-check-square"></i> SSH & SFTP
 			  <ul>
 				  <li>SSH grants you secure access to your server, and enables you control your Server via the command prompt. <br>
-					  SFTP is a secure tool for transfering files between your local device and your Cloud Server.
+
+					  SFTP is a secure tool for transfering files between your local device and your Cloud Server. <br>
+
 </li>
 			  </ul>
 		  </li>
@@ -184,7 +186,9 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
 
           <div id="details" class="row mt-4 mb-4">
             <div class="bg-primary col-md-12 text-white pt-3 mb-3 rounded-top">
-              <h3 class="text-light"> May to June Free Classes</h3>
+
+              <h3 class="text-light">Free Classes</h3>
+
             </div>
             <div class="col-md-7">
               <div>
@@ -220,7 +224,9 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
 	<div class="card-body">
 	<h5 class="card-title"><strong>Cloud Service in partnership with Seonigeria.com</strong></h5>
                 <p class="card-text">
-The student cloud accounts will be used to save all the projects and assignments taken during the two (2) months in the class and other projects that the students will continue to handle in the future. <br> <strong>One(1) year managed cloud hosting for N54,000/Annum.</strong></p>
+
+The student cloud accounts will be used to save all the projects and assignments taken during the two (2) months in the class and other projects that the students will continue to handle  inthe future. <br> <strong>One(1) year managed cloud hosting for N54,000/Annum.</strong></p>
+
 		<a class="btn btn-success" "m-1" href="#">Purchase Now and Save N18,000</a>
 <p>Or</p>
 		<a class="btn btn-success" "m-1" href="#"> Pay N18,000 quarterly

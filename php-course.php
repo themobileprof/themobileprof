@@ -85,7 +85,9 @@
         <li class="breadcrumb-item">
           <a href="training.html">Backend Courses</a>
         </li>
-        <li class="breadcrumb-item active">Backend with PHP</li>
+
+        <li class="breadcrumb-item active">PHP</li>
+
       </ol>
 
       <!-- Portfolio Item Row -->
@@ -175,7 +177,9 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
 
           <div id="details" class="row mt-4 mb-4">
             <div class="bg-primary col-md-12 text-white pt-3 mb-3 rounded-top">
-              <h3 class="text-light">February to March Free Classes</h3>
+
+              <h3 class="text-light">Free Classes</h3>
+
             </div>
             <div class="col-md-7">
               <div>
@@ -211,7 +215,9 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
 	<div class="card-body">
 	<h5 class="card-title"><strong>Cloud Service in partnership with Seonigeria.com</strong></h5>
                 <p class="card-text">
-The student cloud accounts will be used to save all the projects and assignments taken during the two (2) months in the class and other projects that the students will continue to handle  in the future. <br> <strong>One(1) year managed cloud hosting for N54,000/Annum.</strong></p>
+
+The student cloud accounts will be used to save all the projects and assignments taken during the two (2) months in the class and other projects that the students will continue to handle  inthe future. <br> <strong>One(1) year managed cloud hosting for N54,000/Annum.</strong></p>
+
 		<a class="btn btn-success" "m-1" href="#">Purchase Now and Save N18,000</a>
 <p>Or</p>
 		<a class="btn btn-success" "m-1" href="#"> Pay N18,000 quarterly
@@ -245,6 +251,9 @@ The student cloud accounts will be used to save all the projects and assignments
 You will no longer be terrified of the black screen of the Linux terminal</div>
               <div><i class="fa fa-check-square text-primary"></i>Learn how to manipulate files and directories within Linux on Mobile, Desktop, and Server</div>
               <div><i class="fa fa-check-square text-primary"></i>Connect into and work in your Cloud Server through SSH and SFTP</div>
+
+              <div><i class="fa fa-check-square text-primary"></i>Learn how to use command line editors for web application development, giving you the skills to work in most computers you login to, physically or remotely</div>
+
               <div><i class="fa fa-check-square text-primary"></i>Master how to develop web applications with your Smartphone - using Termux, NEOVim, and mobile browsers</div>
               <div><i class="fa fa-check-square text-primary"></i>Use git and github as version control system and remote repo to manage updates on your web application</div>
 		<div>
