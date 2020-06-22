@@ -369,11 +369,11 @@
     background: -ms-linear-gradient(left, rgba(237,230,253,1) 0%, rgba(210,230,253,1) 100%);
     background: linear-gradient(to right, rgba(237,230,253,1) 0%, rgba(210,230,253,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ede6fd', endColorstr='#d2e6fd', GradientType=1 );
-    padding-top: 140px;
+	padding-top: 140px;
     padding-bottom: 85px;
     .install_left_content{
         max-width: 555px;
-        float: right;
+		float: right;
         padding-top: 115px;
         .left_title{
             
