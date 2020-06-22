@@ -154,9 +154,9 @@ $saturday = date("jS F Y", strtotime("saturday"));
 
 			<div class="col-md-8">
 				<div class="row">
-					<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/130373341?color=FF8800&title=0&byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-					<script src="https://player.vimeo.com/api/player.js"></script>
-					<p><a href="https://vimeo.com/130373341">Microsoft Office 365</a></p>
+					<div>
+						<iframe src="https://player.vimeo.com/video/130373341" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+					</div>
 				</div>
 				<div class="row">
 					<p class="firstp">
