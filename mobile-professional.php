@@ -1,40 +1,39 @@
 <?php
 
-require_once('includes/db.php');
-require_once('includes/common.php');
-require_once('includes/training.php');
-///////////////////////////////////////
-use Training\coupon as couponClass;
-use Training\getSeats as getSeatNum;
-///////////////////////////////////////
-// Set Course ID
-$_SESSION['course'] = 1;
-///////////////////////////////////////
+//require_once('includes/db.php');
+//require_once('includes/common.php');
+//require_once('includes/training.php');
+/////////////////////////////////////////
+//use Training\coupon as couponClass;
+//use Training\getSeats as getSeatNum;
+/////////////////////////////////////////
+//// Set Course ID
+//$_SESSION['course'] = 1;
+/////////////////////////////////////////
 
-$ddates['my'] = date("F Y", strtotime("next month"));
-$saturday = date("jS F Y", strtotime("saturday"));
+//$ddates['my'] = date("F Y", strtotime("next month"));
 
-////////////////////////////////////////
-// If an agent is registering for a user
-if (!empty($_GET['agent'])) {
-	if ($agent_id = get_agent($link, $_GET['agent'])) {
-		$_SESSION['proxy'] = $_SESSION['agent'] = $agent_id;
-	}
-} else if (!empty($_GET['ref'])) {  // If user is referred by an agent
-	if ($agent_id = get_agent($link, "", $_GET['ref'])) {
-		$_SESSION['agent'] = $agent_id;
-	}
-}
+//////////////////////////////////////////
+//// If an agent is registering for a user
+//if (!empty($_GET['agent'])) {
+//if ($agent_id = get_agent($link, $_GET['agent'])) {
+//$_SESSION['proxy'] = $_SESSION['agent'] = $agent_id;
+//}
+//} else if (!empty($_GET['ref'])) {  // If user is referred by an agent
+//if ($agent_id = get_agent($link, "", $_GET['ref'])) {
+//$_SESSION['agent'] = $agent_id;
+//}
+//}
 
-////////////////////////////////////////
-if (!empty($_GET['coupon'])) {
-	$_SESSION['coupon'] = $_GET['coupon'];
-}
+//////////////////////////////////////////
+//if (!empty($_GET['coupon'])) {
+//$_SESSION['coupon'] = $_GET['coupon'];
+//}
 
-if (!empty($_SESSION['coupon'])) {
-	$discount = new couponClass($_SESSION['coupon']);
-	$coupon = $discount->get_coupon($link);
-}
+//if (!empty($_SESSION['coupon'])) {
+//$discount = new couponClass($_SESSION['coupon']);
+//$coupon = $discount->get_coupon($link);
+//}
 ////////////////////////////////////////
 // Get number of remaining seats
 //$seatsClass = new getSeatNum;
@@ -45,6 +44,7 @@ if (!empty($_SESSION['coupon'])) {
 //if (!empty($coupon['seats']) && $seats > $coupon['seats']){
 //$seats = $coupon['seats'];
 //}
+$saturday = date("jS F Y", strtotime("saturday"));
 ?>
 <!DOCTYPE html>
 <html lang="en">
