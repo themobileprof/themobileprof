@@ -291,7 +291,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 					</button>
 				</div>
 				<div class="modal-body">
-					<iframe src="" name="pay_frame" id="pay_frame" frameborder="0"></iframe>
+					<iframe src="" class="inframe" name="pay_frame" id="pay_frame" frameborder="0"></iframe>
 				</div>
 
 			</div>
