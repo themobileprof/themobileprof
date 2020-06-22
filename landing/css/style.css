@@ -2576,7 +2576,7 @@ iframe {
 /* App Screenshot Area css
 ============================================================================================ */
 .app_screen_area {
-  padding: 100px 0px 240px 0px;
+  padding: 100px 0px 40px 0px;
 }
 
 .app_screen_area .main_title {
@@ -3927,7 +3927,7 @@ iframe {
   max-width: 555px;
   /*float: right;*/
   padding-top: 15px;
-  padding-left: 25px;
+  padding-left: 100px;
 }
 
 .install_app_area .install_left_content .install_content h5 {

@@ -83,7 +83,7 @@ if ($target == 'NG') {
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+						<a class="navbar-brand" href="index.html"><img src="img/themobileprof_logo.png" alt="" /></a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -160,7 +160,7 @@ if ($target == 'NG') {
 							<strong>Cost:</strong>
 							<span class="text-danger"><?php echo $master_cost; ?>. Pay now!</span>
 						</p>
-						<a class="gradient_bg_btn" href="<?php echo $flutter_link; ?>" style="color: #000000;"><i class="fa fa-book" aria-hidden="true"></i>
+						<a class="gradient_bg_btn" href="<?php echo $flutter_link; ?>" style="color: #000000;"><i class="fa fa-check-square-o" aria-hidden="true"></i>
 							Register
 						</a>
 					</div>
@@ -192,24 +192,12 @@ if ($target == 'NG') {
 					Class presentations with Google Slides *<br />
 				</p>
 				<p>
-					<a class="btn btn-lg btn-danger" href="<?php echo $flutter_link; ?>"><i class="fa fa-book" aria-hidden="true"></i>
+					<a class="btn btn-lg btn-danger" href="<?php echo $flutter_link; ?>"><i class="fa fa-check-square-o" aria-hidden="true"></i>
 						Register Now for <?php echo $master_cost; ?>
 					</a>
 				</p>
 			</div>
-			<div class="app_screen_inner">
-				<div class="app_screen_slider owl-carousel">
-					<div class="item">
-						<img src="img/screenshot/short_answer.png" alt="" />
-					</div>
-					<div class="item">
-						<img src="img/screenshot/powerpoint-mobile.png" alt="" />
-					</div>
-					<div class="item">
-						<img src="img/screenshot/video_question.png" alt="" />
-					</div>
-				</div>
-			</div>
+
 		</div>
 	</section>
 	<!--================End App Screen Area =================-->
@@ -348,7 +336,7 @@ if ($target == 'NG') {
 							</div>
 						</div>
 						<div class="row" style="text-align: center;">
-							<a class="btn btn-lg btn-danger" href="<?php echo $flutter_link; ?>"><i class="fa fa-book" aria-hidden="true"></i>
+							<a class="btn btn-lg btn-danger" href="<?php echo $flutter_link; ?>"><i class="fa fa-check-square-o" aria-hidden="true"></i>
 								Register Now for <?php echo $master_cost; ?>
 							</a>
 						</div>
