@@ -115,6 +115,9 @@ if ($target == 'NG') {
 					<a href="#">
 						<img src="<?php echo $home_img; ?>" alt="Web Development on Mobile" />
 					</a>
+					<div style="text-align: center; padding: 10px;">
+						<img src="img/mosedes.jpg" class="img-fluid" alt="">
+					</div>
 				</div>
 			</div>
 		</div>
