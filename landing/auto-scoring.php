@@ -2,14 +2,14 @@
 $target = $_GET['target'] ?? 'other';
 
 if ($target == 'NG') {
-	$master_cost = "N10,000";
+	$master_cost = "N5,000";
 	$bonus_cost = "N5,000";
 	$flutter_link = "https://flutterwave.com/pay/marker";
 	$home_img = "../assets/woman-smartphone.jpg";
 	$contact = "https://wa.me/2348033954301";
 } else {
-	$master_cost = "$30";
-	$bonus_cost = "$20";
+	$master_cost = "$25";
+	$bonus_cost = "$25";
 	$flutter_link = "https://flutterwave.com/pay/testscores";
 	$home_img = "../assets/woman-sitting.jpg";
 	$contact = "mailto:info@themobileprof.com";
@@ -146,26 +146,59 @@ if ($target == 'NG') {
 							<br />
 							<br />
 							Attend our
-							<strong style="color: #f00;">Google Forms Master Class</strong>
-							to learn how to create tests that are graded automatically while
+							<strong>Microsoft Powerpoint</strong> and
+							<strong>Google Forms Master Class</strong>
+							to learn how to teach with effective presentations and create tests that are graded automatically while
 							you use your new found time to ease back or get busy with
 							something else.
-							<br />
-							Register for our Zoom online class as spaces are filling up
+							<br /><br />
+							<a href="https://form.jotform.com/201761062027041" target="_blank" style="font-size:20px;">Register for our online classes</a> as spaces are filling up
 							rapidly.
-							<strong style="color: #f00;">The Bonus Class is for the first 25 people to register. Hurry
-								now!</strong>
-						</p>
-						<p style="font-size: 20px; color: #4f3f86;" class="p-4">
-							<strong>Date:</strong> Saturday 27th June <br />
 
-							<strong>Time:</strong> 15:00 - 17:00 GMT <br />
-							<strong>Cost:</strong>
-							<span class="text-danger"><?php echo $master_cost; ?>. Pay now!</span>
 						</p>
-						<a class="gradient_bg_btn" href="<?php echo $flutter_link; ?>" style="color: #000000;"><i class="fa fa-check-square-o" aria-hidden="true"></i>
-							Register
-						</a>
+						<p style="font-size: 20px; color: #4f3f86; text-align: left;" class="p-1">
+							<strong style="color: #f00;">
+								Microsoft PowerPoint Masterclass
+							</strong>
+							<br>
+
+							<strong>Date:</strong> Friday 3rd July, 2020 <br />
+
+
+							<strong>Time:</strong> 2pm (WAT) <br />
+							<strong>Cost:</strong>
+							<span class="text-danger"><?php echo $master_cost; ?></span>
+						</p>
+						<hr>
+
+						<p style="font-size: 20px; color: #4f3f86; text-align: left;" class="p-1">
+							<strong style="color: #f00;">
+								Google Forms Masterclass
+							</strong>
+							<br>
+
+							<strong>Date:</strong> Saturday 4th July, 2020 <br />
+
+
+							<strong>Time:</strong> 2pm (WAT) <br />
+							<strong>Cost:</strong>
+							<span class="text-danger"><?php echo $master_cost; ?></span>
+						</p>
+						<hr>
+						<div class="p-3">
+
+							<a class="gradient_bg_btn" href="<?php echo $flutter_link; ?>" style="color: #000000;"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+								Pay Now!
+							</a>
+						</div>
+						<div style="font-size: 25px;" class="m-4 p-4 font-weight-bold">
+							<br>
+
+							Alternatively, pay into</div>
+						<div style="padding: 10px; font-size: 18px;">
+							Otomatik Ventures (0739418615) - Access Bank <br>
+							Send your full Name, Prefered day/Course and evidence of payment to 08066441342
+						</div>
 					</div>
 				</div>
 			</div>
@@ -186,17 +219,18 @@ if ($target == 'NG') {
 					and teachers
 				</p>
 				<p class="h5" style="max-width: 70%;">
-					<span class="text-danger"><strong><?php echo $master_cost; ?> Master Class</strong> Day 1 (Saturday, 27th June,
-						2020):</span>
-					Automated test grading with Google Forms <br />
+					<span class="text-primary"><strong><?php echo $bonus_cost; ?> Presentation Master Class</strong>
+						(Friday, 3rd July, 2020):</span>
+					Class presentations with Microsoft Powerpoint<br />
+					<br>
 
-					<span class="text-primary"><strong><strike class="text-muted"><?php echo $bonus_cost; ?></strike> Bonus Class</strong>
-						Day 2 (Sunday, 28th June, 2020):</span>
-					Class presentations with Google Slides *<br />
+					<span class="text-danger"><strong><?php echo $master_cost; ?> Google forms Master Class</strong> (Saturday, 4th July,
+						2020):</span>
+					Automated test grading with Google Forms
 				</p>
 				<p>
 					<a class="btn btn-lg btn-danger" href="<?php echo $flutter_link; ?>"><i class="fa fa-check-square-o" aria-hidden="true"></i>
-						Register Now for <?php echo $master_cost; ?>
+						Register Now!
 					</a>
 				</p>
 			</div>
@@ -229,7 +263,7 @@ if ($target == 'NG') {
 								<div class="panel-heading" role="tab" id="headingOne">
 									<h4 class="panel-title">
 										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-											1. What will the Masterclass cover?
+											1. What will the Google Forms Masterclass cover?
 											<i class="fa fa-minus" aria-hidden="true"></i>
 											<i class="fa fa-plus" aria-hidden="true"></i>
 										</a>
@@ -258,7 +292,7 @@ if ($target == 'NG') {
 								<div class="panel-heading" role="tab" id="headingTwo">
 									<h4 class="panel-title">
 										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-											2. Does the Cost cover the bonus class too?
+											2. Can I take the two Classes?
 											<i class="fa fa-minus" aria-hidden="true"></i>
 											<i class="fa fa-plus" aria-hidden="true"></i>
 										</a>
@@ -266,11 +300,7 @@ if ($target == 'NG') {
 								</div>
 								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									<div class="panel-body">
-										Yes, registration for the master class gives you
-										provisional access to the bonus class too. However, it is
-										only available for <b>free</b> to the first 25
-										registrations, every other person pays the <?php echo $bonus_cost; ?> for the
-										Presentation (Bonus) class.
+										Certainly, in fact we will recommend both classes. While the Presentation class trains you on how to teach remotely, the Google Forms training teaches you how to set tests and automate their grading.
 									</div>
 								</div>
 							</div>
@@ -278,7 +308,7 @@ if ($target == 'NG') {
 								<div class="panel-heading" role="tab" id="headingThree">
 									<h4 class="panel-title">
 										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-											3. What does the bonus course cover?
+											3. What does the Microsoft Powerpoint course cover?
 											<i class="fa fa-minus" aria-hidden="true"></i>
 											<i class="fa fa-plus" aria-hidden="true"></i>
 										</a>
@@ -289,7 +319,7 @@ if ($target == 'NG') {
 										The bonus course covers how to setup simple slide
 										presentations for your classes. This includes:
 										<ul style="color: #000; list-style-type: circle;">
-											<li>Working with Google Slides</li>
+											<li>Working with Microsoft Powerpoint</li>
 											<li>
 												Getting Copyright free pictures and illustrations
 											</li>
@@ -312,9 +342,7 @@ if ($target == 'NG') {
 									<div class="panel-body">
 										The Masterclass is by:
 										<ul>
-											<li>15:00 - 17:00 GMT (Greenwich Mean Time)</li>
-											<li>8:00 - 10:00 PST (Pacific Standard Time)</li>
-											<li>16:00 - 18:00 WAT (West African Time)</li>
+											<li>14:00 - 16:00 WAT (West African Time)</li>
 										</ul>
 									</div>
 								</div>
@@ -340,8 +368,7 @@ if ($target == 'NG') {
 						</div>
 						<div class="row" style="text-align: center;">
 							<a class="btn btn-lg btn-danger" href="<?php echo $flutter_link; ?>"><i class="fa fa-check-square-o" aria-hidden="true"></i>
-								Register Now for <?php echo $master_cost; ?>
-							</a>
+								Register Now! </a>
 						</div>
 					</div>
 				</div>

@@ -112,6 +112,10 @@
 						<img src="assets/coder.png" alt="Programmer" class="img-fluid">
 						Why PHP? You may ask. Well, according to W3Techs' data, PHP is used by 78.9% of all websites with a known server-side programming language. So almost 8 out of every 10 websites that you visit on the Internet are using PHP in some way. That means there is plenty of work to do. By taking this course in PHP, you'll be immediately able to work with and customize these websites. Software built with php include Favebook, Baidu, Wordpress, Yahoo, Wikipedia, Canva and many more really popular platforms.
 
+						<br>
+
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdUlOzfoIqPMWwnGE4KKfs7ZjNEeHDPR_N0Zzrp1mwSnqGimA/viewform?usp=sf_link" class="btn btn-primary m-1 text-white">
+							Take Entry test</a>
 
 						<table class="table table-bordered">
 							<thead class="thead-dark">
@@ -220,11 +224,11 @@
 						</ul>
 					</div>
 					<div class="benefits col-md-5">
-						<h3>Register for the MobileDev class below</h3>
+						<h3 class="text-danger">To Qualify for the class, you first have to take and pass an entry assessment test</h3>
 						<!-- <div data-toggle="modal" data-target="#payModal"> -->
 						<div>
-							<a href="https://paystack.com/buy/8-weeks-code-camp" class="btn btn-primary m-1 text-white">
-								Enroll Today</a>
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdUlOzfoIqPMWwnGE4KKfs7ZjNEeHDPR_N0Zzrp1mwSnqGimA/viewform?usp=sf_link" class="btn btn-primary m-1 text-white">
+								Take Entry test</a>
 						</div>
 
 
