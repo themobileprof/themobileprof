@@ -87,7 +87,7 @@
 	<div class="container py-5">
 
 		<!-- Page Heading/Breadcrumbs -->
-		<h1 class="mt-4 mb-3">8 Weeks PHP Code Camp
+		<h1 class="mt-4 mb-3">10 Weeks PHP Code Camp
 		</h1>
 
 		<ol class="breadcrumb bg-white">
@@ -120,7 +120,7 @@
 						<table class="table table-bordered">
 							<thead class="thead-dark">
 								<tr>
-									<th>8 Weeks</th>
+									<th>10 Weeks</th>
 									<th>Topics</th>
 								</tr>
 							</thead>
@@ -132,32 +132,40 @@
 								</tr>
 								<tr>
 									<td>Week 2</td>
-									<td>Commandline MySQL</td>
+									<td>HTML, CSS and Bootsrap</td>
 								</tr>
 								<tr>
 									<td>Week 3</td>
-									<td>Git and Github</td>
+									<td>Cloud Computing</td>
 								</tr>
 								<tr>
 									<td>Week 4</td>
-									<td>PHP Introductions and Elements</td>
+									<td>FTP/SFTP</td>
 								</tr>
 								<tr>
 									<td>Week 5</td>
-									<td>PHP Expressions and Loops</td>
+									<td>Git and Github</td>
 								</tr>
 								<tr>
 									<td>Week 6</td>
-									<td>PHP Namespace and Functions</td>
+									<td>MySQL</td>
 								</tr>
 								<tr>
 									<td>Week 7</td>
-									<td>PHP Classes and Objects</td>
+									<td>PHP Data Types and Loops</td>
 								</tr>
 
 								<tr>
 									<td>Week 8</td>
-									<td>Database Integration and FTP</td>
+									<td>PHP Classes and Objects</td>
+								</tr>
+								<tr>
+									<td>Week 9</td>
+									<td>DB Integration</td>
+								</tr>
+								<tr>
+									<td>Week 10</td>
+									<td>Projects</td>
 								</tr>
 
 							</tbody>
@@ -174,6 +182,12 @@
 											This course seeks to demystify the Linux command prompt and introduce you to basic linux commands like cd, ls, mkdir, rm, pwd, ln, cp, mv and touch
 
 
+										</li>
+									</ul>
+								</li>
+								<li><i class="fa fa-check-square"></i> Cloud Computing
+									<ul>
+										<li>The most recent technology is the method of storing and accessing data and programs over the internet instead on your local computer hard drive. This is what is called cloud computing. The term 'cloud' is used to refer to the internet.
 										</li>
 									</ul>
 								</li>
@@ -219,8 +233,8 @@
 							<div class="display-4 text-success">N80,000</div>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item"><strong>Duration:</strong> 2 Months</li>
-							<li class="list-group-item"><strong>Days:</strong> Mondays to Friday(1 Hour Daily)</li>
+							<li class="list-group-item"><strong>Duration:</strong> 10 Weeks</li>
+							<li class="list-group-item"><strong>Days:</strong> Monday to Friday(1 Hour Daily)</li>
 						</ul>
 					</div>
 					<div class="benefits col-md-5">
