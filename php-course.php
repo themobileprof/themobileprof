@@ -263,6 +263,18 @@
 
 				</div>
 				<div class="card mt-2">
+
+					<div class="card-body hidlist">
+						<h4 class="pt-2 text-primary">Students in our <strong>UniLag</strong> Code Class get free <strong class="text-dark">Git and Google Cloud Console</strong> classes</h4>
+						<img src="assets/unilagos.jpg" alt="" style="width: 100px;" class="pull-left m-2">
+						<p>If you pass the test you get an <b>additional 20%</b> discount on the course or <b>2 weeks free training</b> on Terminal based Git and Gcloud management commands</p>
+
+					</div>
+					<div class="card-footer text-muted">
+						To qualify for the free classes, <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUlOzfoIqPMWwnGE4KKfs7ZjNEeHDPR_N0Zzrp1mwSnqGimA/viewform?usp=sf_link">take and pass our entry test</a>
+					</div>
+				</div>
+				<div class="card mt-2">
 					<div class="card-header bg-primary">
 						<h4 class="text-white pt-2">Benefits of the Course</h4>
 					</div>
