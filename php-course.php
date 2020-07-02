@@ -110,12 +110,20 @@
 
 					<p class="firstp">
 						<img src="assets/coder.png" alt="Programmer" class="img-fluid">
-						Why PHP? You may ask. Well, according to W3Techs' data, PHP is used by 78.9% of all websites with a known server-side programming language. So almost 8 out of every 10 websites that you visit on the Internet are using PHP in some way. That means there is plenty of work to do. By taking this course in PHP, you'll be immediately able to work with and customize these websites. Software built with php include Favebook, Baidu, Wordpress, Yahoo, Wikipedia, Canva and many more really popular platforms.
+						Why PHP? You may ask. Well, according to W3Techs' data, PHP is used by 78.9% of all websites with a known server-side programming language. So almost 8 out of every 10 websites that you visit on the Internet are using PHP in some way. That means there is plenty of work to do. By taking this course in PHP, you'll be immediately able to work with and customize these websites. Software built with php include Facebook, Baidu, Wordpress, Yahoo, Wikipedia, Canva and many more really popular platforms.
 
 						<br>
 
 						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdUlOzfoIqPMWwnGE4KKfs7ZjNEeHDPR_N0Zzrp1mwSnqGimA/viewform?usp=sf_link" class="btn btn-primary m-1 text-white">
 							Take Entry test</a>
+
+						<div>
+							<h3>Special Option: Reserve a Seat Now for N10,000!</h3>
+							<p>A reservation ensures that you are one of our starting students. This covers the first two weeks classes, which are <strong>Linux Terminal</strong> and <strong>HTML, CSS, BootStrap</strong>. If you pass the test, this upfront payment is discounted from your fees. <br>
+								<strong class="text-danger">How is the reservation special?</strong> This is the only way you get multiple chances to retake the test, within the first 2 weeks of training. However, if you failed the original test, you don't get any rebates even if you eventually pass the test on subsequent attempts, you pay the same fees as everyone else. </p>
+							<a href="https://paystack.com/buy/reserve-themobileprof-codecamp" class="btn btn-danger m-1 text-white">
+								Reserve a Seat (N10,000)</a>
+						</div>
 
 						<table class="table table-bordered">
 							<thead class="thead-dark">
