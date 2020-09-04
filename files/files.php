@@ -61,8 +61,8 @@ curl_close($ch);
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h1 class="mt-5">TheMobileProf.com Intro to Linux on Mobile</h1>
-				<p class="lead">Our Free Intro videos cover Linux installation and setup on mobile, common Linux commands, and the Neovim Code Editor. This will form a Solid background for further learning on Linux. Explore our Videos below.</p>
+				<h1 class="mt-5">Intro to Linux on Mobile</h1>
+				<p class="lead">Our Free Intro videos cover Linux installation and setup on mobile, common Linux commands, and the Neovim Code Editor.</p>
 
 				<?php
 				echo $data;
