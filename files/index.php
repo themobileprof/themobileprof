@@ -59,34 +59,36 @@ $a = scandir($dir);
 				<h1 class="mt-5">TheMobileProf.com Intro to Linux on Mobile</h1>
 				<p class="lead">Our Free Intro videos cover Linux installation and setup on mobile, common Linux commands, and the Neovim Code Editor. This will form a Solid background for further learning on Linux. Explore our Videos below.</p>
 
-				<?php
-				foreach ($a as $filename) {
-					if ($filename == "." || $filename == ".." || substr($filename, 0, 2) != "wk") {
-						continue;
+				<div class="row">
+					<?php
+					foreach ($a as $filename) {
+						if ($filename == "." || $filename == ".." || substr($filename, 0, 2) != "wk") {
+							continue;
+						}
+						$segments = explode("-", $filename);
+						$period = substr($segments[0], 2);
+
+						$div = explode("d", $period);
+						$wk = $div[0];
+						$d = $div[1];
+
+						$week[$wk][$d] = $segments[2];
 					}
-					$segments = explode("-", $filename);
-					$period = substr($segments[0], 2);
 
-					$div = explode("d", $period);
-					$wk = $div[0];
-					$d = $div[1];
-
-					$week[$wk][$d] = $segments[2];
-				}
-
-				foreach ($week as $k => $v) {
-					echo '<div class="card col-md-3 small">
+					foreach ($week as $k => $v) {
+						echo '<div class="card" style="width: 15rem; float: left; margin: 5px;">
 			  <div class="card-body">
 				<h5 class="card-title">Week ' . $k . '</h5>
 			<ul class="list-group list-group-flush">';
-					foreach ($v as $day => $title) {
-						echo "<li class=\"list-group-item\"> <a href=\"linuxmini/wk" . $k . "d" . $day . "-minilinux-" . $title . "\" target=\"_blank\">Day $day ($title)</a></li>";
-					}
-					echo '</ul>
+						foreach ($v as $day => $title) {
+							echo "<li class=\"list-group-item\"> <a href=\"linuxmini/wk" . $k . "d" . $day . "-minilinux-" . $title . "\" target=\"_blank\">Day $day ($title)</a></li>";
+						}
+						echo '</ul>
 		  </div>
 		</div>';
-				}
-				?>
+					}
+					?>
+				</div>
 			</div>
 		</div>
 	</div>
