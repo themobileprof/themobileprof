@@ -65,9 +65,11 @@ curl_close($ch);
 				<h1 class="mt-5">Intro to Linux on Mobile</h1>
 				<p class="lead">Our Free Intro videos cover Linux installation and setup on mobile, common Linux commands, and the Neovim Code Editor.</p>
 
-				<?php
-				echo $data;
-				?>
+				<div class="row">
+					<?php
+					echo $data;
+					?>
+				</div>
 			</div>
 		</div>
 	</div>
