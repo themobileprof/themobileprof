@@ -25,6 +25,7 @@ curl_close($ch);
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>

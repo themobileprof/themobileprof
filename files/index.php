@@ -19,6 +19,7 @@ $a = scandir($dir);
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -74,7 +75,7 @@ $a = scandir($dir);
 				}
 
 				foreach ($week as $k => $v) {
-					echo '<div class="card" style="width: 18rem; float: left; margin: 5px;">
+					echo '<div class="card col-md-3 small">
 			  <div class="card-body">
 				<h5 class="card-title">Week ' . $k . '</h5>
 			<ul class="list-group list-group-flush">';
