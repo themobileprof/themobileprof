@@ -177,11 +177,10 @@ $saturday = date("jS F Y", strtotime("saturday"));
 						<a href="https://paystack.com/pay/officemobile" target="pay_frame" class="btn btn-primary m-1">Register now</a>
 					</div>
 				</div>
-				<div class="row bg-light rounded">
-					<div class="col-md-6 col-md-6 p-0">
-						<img src="images/presentation.jpeg" alt="Office Presentation" class="img-fluid rounded">
-					</div>
-					<div class="story col-md-6 col-md-6 p-3">
+				<div class="row rounded" style="background-color:#f6fbcc;">
+					<div class="story col-md-12 p-3">
+<h2>Short Story Series</h2>
+						<img src="images/presentation.jpeg" alt="Office Presentation" class="img-fluid rounded" style="width:100%; padding-bottom:15px;">
 						<p> Mabel is heading to a meeting with two of her colleagues, this Prospect had been referred to them by their biggest Client. The light rain was pattering on her side of the car window, as the Uber cab they are riding slowly makes its way through a slightly flooded street in a section of Lekki with a few portholes littered throughout the length of the street. Why the construction crew has not finished repairing this road beats Mabel, they have been stuck on “repairing” this road since beginning of the year, now the rainy season is here, who knows how much longer this was going to take?
 						</p>
 						<p>
@@ -194,7 +193,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 							“What?!” Mabel glared at Juliet “How could you have forgotten to copy the presentation? Something we developed on your desktop?” Mabel screamed, “What do we do now? If we head back to the office, we will definitely be late for the meeting, yet we cannot enter that meeting without a presentation”
 						</p>
 						<p>
-							“I have the figures we used in the presentation stored on my Google Drive, it syncs on this phone too” Ada chips in, joining the conversation. The other two colleagues looked at her, suddenly realising that all is not lost … yet! Quickly whipping out her phone from her leather hand bag, Mabel opens up the Microsoft Powerpoint App, scrolls through the theme options, selects one with a beautiful blue rich background, and starts creating a new presentation. “Ada please send me the figures, thank you”, still glaring at Juliet “Send me the new logo, and while you’re at it, go to pexels.com and look for appropriate free pictures I’ll include in this slide, and please be snappy about it”
+							“I have the figures we used in the presentation stored on my Google Drive, it syncs on this phone too” Ada chips in, joining the conversation. The other two colleagues looked at her, suddenly realising that all is not lost … yet! Quickly whipping out her phone from her leather hand bag, Mabel opens up the Microsoft Powerpoint App, scrolls through the theme options, selects one with a beautiful blue rich background, and starts creating a new presentation. “Ada please send me the figures, thank you”, still glaring at Juliet “Send me the new logo, and while you’re at it, go to pexels.com and look for appropriate free pictures I’ll include in this slide, and hurry”
 						</p>
 						<p>
 							“You’re such a nice man, thanks for giving us 5 more minutes in your car to finish our presentation. I’ll definitely rate you 5 stars”, Mabel waves slightly at the smiling Uber driver as he makes his way out of the close. The rain has stopped momentarily, but the clouds still look heavy, maybe it will rain again, who knows? …
@@ -217,7 +216,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 						<h3> <small>Next Class:</small> <br>
 							<?php echo $saturday; ?></h3>
 						<div data-toggle="modal" data-target="#payModal">
-							<a href="https://paystack.com/pay/officemobile" target="pay_frame" class="btn btn-primary m-1">Register now</a>
+							<a href="https://paystack.com/pay/officemobile" target="pay_frame" class="btn btn-danger m-1">Register now</a>
 						</div>
 
 
@@ -226,20 +225,8 @@ $saturday = date("jS F Y", strtotime("saturday"));
 
 
 				</div>
-
-
-
-
-
-				<!-- Related Projects Row -->
-
-
-
-
-			</div>
-
-			<div class="col-md-4">
-				<div class="card mt-3 stories">
+<div class="card mt-3 story" style="background-color:#e2ccfb;">
+<h3 class="p-3">Short Story Series</h3>
 					<img src="images/man-on-computer.jpeg" alt="Working on Computer" class="img-fluid">
 					<div class="card-body">
 						<p>
@@ -252,6 +239,36 @@ $saturday = date("jS F Y", strtotime("saturday"));
 							#MobileBusinessProductivity</p>
 					</div>
 				</div>
+
+
+<div id="details" class="row mt-4 mb-4">
+					
+					<div class="col-md-7">
+
+						<img src="assets/office-365.png" alt="Microsoft Office" class="img-fluid">
+					</div>
+					<div class="benefits col-md-5 pt-5">
+						<div data-toggle="modal" data-target="#payModal">
+							<a href="https://paystack.com/pay/officemobile" target="pay_frame" class="btn btn-danger m-1">Register now</a>
+						</div>
+
+
+
+					</div>
+
+
+				</div>
+
+
+				<!-- Related Projects Row -->
+
+
+
+
+			</div>
+
+			<div class="col-md-4">
+				
 				<div class="card mt-2">
 					<div class="card-header bg-primary">
 						<h4 class="text-white pt-2">Benefits of the Course</h4>
@@ -301,7 +318,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 	<!-- Footer -->
 	<footer class="py-5 bg-dark">
 		<div class="container">
-			<p class="m-0 text-center text-white">Copyright &copy; SEONigeria.com 2018</p>
+			<p class="m-0 text-center text-white">Copyright &copy; 2020. TheMobileProf.com</p>
 		</div>
 		<!-- /.container -->
 	</footer>

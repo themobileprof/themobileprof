@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
 body {
   padding-top: 54px;
@@ -134,16 +136,13 @@ h2 {
   height: 500px;
 }
 .stories .card-body {
-  height: 230px;
-  font-size: 14px;
-  overflow: scroll;
+  font-size: 13px;
   font-family: "Raleway", sans-serif !important;
 }
 .story {
-  height: 230px;
   font-size: 14px;
-  overflow: scroll;
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Montserrat Alternates","Raleway", sans-serif !important;
+  padding:10px;
 }
 .storyspan {
   padding-top: 5px;
