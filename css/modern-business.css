@@ -226,3 +226,7 @@ blockquote {
   margin-top: 5px;
   margin-bottom: 15px;
 }
+
+p {
+  line-height: 30px;
+}
