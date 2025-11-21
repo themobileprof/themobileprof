@@ -11,7 +11,7 @@ function process_form(){
     // Create the email and send the message
     $to = 'contact@seonigeria.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
     $email_subject = "Application as Technical Partner:  $business";
-    $email_body = "Someone just sent you a request for Technical Partnership.\n\n"."Here are the details:\n\n Name: $name\n\n Email: $email_address\n\n Phone: $phone\n\n business:\n$message\n\n website: $name\n\n Products/Services: $email_address\n\n Would your business work with Online Payments?: $positive";
+    $email_body = "Someone just sent you a request for Technical Partnership.\n\n"."Here are the details:\n\n Name: $name\n\n Email: $email_address\n\n Phone: $phone\n\n business:\n$business\n\n website: $website\n\n Products/Services: $products_services\n\n Would your business work with Online Payments?: $positive";
     $headers = "From: noreply@seonigeria.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
     $headers .= "Reply-To: $email_address";   
     
@@ -60,14 +60,14 @@ if(empty($_POST['name'])      ||
 
   <head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7718160-1"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6RHSV6L3E0"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-gtag('config', 'UA-7718160-1');
+  gtag('config', 'G-6RHSV6L3E0');
 </script>
 
     <meta charset="utf-8">

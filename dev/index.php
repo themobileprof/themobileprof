@@ -22,14 +22,11 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){
-    	dataLayer.push(arguments);
-    }
-    gtag('js',new Date());
-    
-    gtag('config', 'UA-7718160-1');
-    gtag('config', 'AW-725647545');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6RHSV6L3E0');
     </script>
     <script>
     	function gta_report_conversion(url){

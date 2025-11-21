@@ -3,14 +3,14 @@
 
   <head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7718160-1"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RHSV6L3E0"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'UA-7718160-1');
+      gtag('config', 'G-6RHSV6L3E0');
     </script>
 
     <meta charset="utf-8">
@@ -205,9 +205,8 @@ Github.com is a remote git hosting tool that allows you keep a copy of your git 
               <h3>Register for the MobileDev class below</h3>
 	      <!-- <div data-toggle="modal" data-target="#payModal"> -->
 		      <div>
-<a onclick="return  href="tel:+2348153039003" class="btn btn-primary m-1 text-white">
-                Call us to Register</a>
-              </div>
+            <a href="tel:+2348153039003" class="btn btn-primary m-1 text-white">Call us to Register</a>
+          </div>
               
      
 

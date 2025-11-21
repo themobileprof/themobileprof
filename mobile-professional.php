@@ -64,8 +64,8 @@ $saturday = date("jS F Y", strtotime("saturday"));
 	</script>
 
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7718160-1"></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-6RHSV6L3E0"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -74,7 +74,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 		}
 		gtag('js', new Date());
 
-		gtag('config', 'UA-7718160-1');
+		gtag('config', 'G-6RHSV6L3E0');
 	</script>
 
 	<meta charset="utf-8">
