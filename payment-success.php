@@ -108,7 +108,7 @@
               <p class="card-text">Service Request: <?php if (!empty($_REQUEST['service'])){ echo $_REQUEST['service']; } ?></p>
               <p class="card-text">Service Type: <?php if (!empty($_REQUEST['type'])){ echo $_REQUEST['type']; } ?></p>
               <p class="card-text">You will receive a confirmation Email shortly. If you do not see this email within 24 Hours, kindly check your spam folder too. Or email us at training@seonigeria.com for additional Information. <br>
-              <strong class="text-danger">HOTLINES: +2348033954301, +2348022260080</strong></p>
+              <strong class="text-danger">HOTLINES: +2348033954301, +2347075240400</strong></p>
             </div>
           </div>
         </div>

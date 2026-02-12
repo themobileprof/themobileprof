@@ -107,7 +107,7 @@
               <p class="card-text">Service Request: <?php if (!empty($_REQUEST['service'])){ echo $_REQUEST['service']; } ?></p>
               <p class="card-text">Service Type: <?php if (!empty($_REQUEST['type'])){ echo $_REQUEST['type']; } ?></p>
               <p class="card-text">
-              <strong class="text-danger">HOTLINES: +2348033954301, +2348022260080</strong></p>
+              <strong class="text-danger">HOTLINES: +2348033954301, +2347075240400</strong></p>
             </div>
           </div>
         </div>
