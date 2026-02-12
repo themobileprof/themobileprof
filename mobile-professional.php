@@ -93,11 +93,11 @@ $saturday = date("jS F Y", strtotime("saturday"));
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-	<link href="css/modern-business.css" rel="stylesheet">
+	<link href="assets/css/modern-business.css" rel="stylesheet">
 
 	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 
 </head>
 
@@ -106,7 +106,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="index.html"><img src="assets/logo.jpg"></a>
+			<a class="navbar-brand" href="index.html"><img src="assets/img/logo.jpg"></a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -169,7 +169,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 								<li><i class="fa fa-check-square"></i> Convert, go cloud</li>
 								<li><i class="fa fa-check-square"></i> ALL from your phone. Anytime, anywhere.</li>
 							</ul>
-							<img src="assets/msoffice.jpeg" alt="Microsoft Office on Mobile" class="img-responsive col-md-3 col-8 offset-2 offset-md-0">
+							<img src="assets/img/msoffice.jpeg" alt="Microsoft Office on Mobile" class="img-responsive col-md-3 col-8 offset-2 offset-md-0">
 						</div>
 					</p>
 
@@ -180,7 +180,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 				<div class="row rounded" style="background-color:#f6fbcc;">
 					<div class="story col-md-12 p-3">
 <h2>Short Story Series</h2>
-						<img src="images/presentation.jpeg" alt="Office Presentation" class="img-fluid rounded" style="width:100%; padding-bottom:15px;">
+						<img src="assets/img/presentation.jpeg" alt="Office Presentation" class="img-fluid rounded" style="width:100%; padding-bottom:15px;">
 						<p> Mabel is heading to a meeting with two of her colleagues, this Prospect had been referred to them by their biggest Client. The light rain was pattering on her side of the car window, as the Uber cab they are riding slowly makes its way through a slightly flooded street in a section of Lekki with a few portholes littered throughout the length of the street. Why the construction crew has not finished repairing this road beats Mabel, they have been stuck on “repairing” this road since beginning of the year, now the rainy season is here, who knows how much longer this was going to take?
 						</p>
 						<p>
@@ -210,7 +210,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 					</div>
 					<div class="col-md-7">
 
-						<img src="assets/office365.png" alt="Microsoft Word Excel Powerpoint" class="img-fluid">
+						<img src="assets/img/office365.png" alt="Microsoft Word Excel Powerpoint" class="img-fluid">
 					</div>
 					<div class="benefits col-md-5">
 						<h3> <small>Next Class:</small> <br>
@@ -227,7 +227,7 @@ $saturday = date("jS F Y", strtotime("saturday"));
 				</div>
 <div class="card mt-3 story" style="background-color:#e2ccfb;">
 <h3 class="p-3">Short Story Series</h3>
-					<img src="images/man-on-computer.jpeg" alt="Working on Computer" class="img-fluid">
+					<img src="assets/img/man-on-computer.jpeg" alt="Working on Computer" class="img-fluid">
 					<div class="card-body">
 						<p>
 							It’s 5.04pm on Friday, everyone is rearing to leave the office to begin their TGIF, suddenly a client calls asking for the proposal for an urgent job. The other two staffs needed to work on the proposal are already out of the office, so Eze quickly creates a rough draft of the proposal on his Microsoft Word document on his office Laptop and stores it in Dropbox, he notifies his colleagues of the saved document, and they connect to Dropbox on their mobile phones, and edited sections of the proposal using the Microsoft Word App.

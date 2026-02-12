@@ -45,11 +45,11 @@
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-	<link href="css/modern-business.css" rel="stylesheet">
+	<link href="assets/css/modern-business.css" rel="stylesheet">
 
 	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 
 </head>
 
@@ -59,7 +59,7 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="index.html"><img src="assets/logo.jpg"></a>
+			<a class="navbar-brand" href="index.html"><img src="assets/img/logo.jpg"></a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -109,7 +109,7 @@
 				<div class="row">
 
 					<p class="firstp">
-						<img src="assets/coder.png" alt="Programmer" class="img-fluid">
+						<img src="assets/img/coder.png" alt="Programmer" class="img-fluid">
 
 						<div>
 							<h3>Reserve a Seat Now</h3>
@@ -211,14 +211,14 @@
 				<div class="embed-responsive embed-responsive-1by1">
 
 					<video class="embed-responsive-item" controls>
-						<source src="assets/php_sample.mp4 " frameborder="0" allowfullscreen></video>
+						<source src="assets/img/php_sample.mp4 " frameborder="0" allowfullscreen></video>
 
 				</div>
 				<div class="card mt-2">
 
 					<div class="card-body hidlist">
 						<h4 class="pt-2 text-primary">Students in our <strong>UniLag</strong> Code Class get free <strong class="text-dark">Git and Google Cloud Console</strong> classes</h4>
-						<img src="assets/unilagos.jpg" alt="" style="width: 100px;" class="pull-left m-2">
+						<img src="assets/img/unilagos.jpg" alt="" style="width: 100px;" class="pull-left m-2">
 						<p>If you pass the test you get an <b>additional 20%</b> discount on the course or <b>2 weeks free training</b> on Terminal based Git and Gcloud management commands</p>
 
 					</div>

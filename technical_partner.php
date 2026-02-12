@@ -88,7 +88,7 @@ if(empty($_POST['name'])      ||
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="assets/css/modern-business.css" rel="stylesheet">
 
     <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
@@ -136,7 +136,7 @@ if(empty($_POST['name'])      ||
       <!-- Intro Content -->
       <div class="row">
         <div class="col-lg-6">
-          <img class="img-fluid rounded mb-4" src="assets/partnership.jpeg" alt="Partnership">
+          <img class="img-fluid rounded mb-4" src="assets/img/partnership.jpeg" alt="Partnership">
         </div>
         <div class="col-lg-6">
           <h2><?php echo $cont['head'];?></h2>

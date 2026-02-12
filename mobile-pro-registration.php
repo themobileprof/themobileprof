@@ -94,11 +94,11 @@ if (!empty($coupon['seats']) && $seats > $coupon['seats']){
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="assets/css/modern-business.css" rel="stylesheet">
 
     <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 
     <style>
     body {

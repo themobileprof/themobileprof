@@ -83,7 +83,7 @@ try {
         } elseif ($make_pay->amount == 0) {
             echo '
             <div>
-                <img src="images/success.gif" alt="Registration Successful" class="img-responsive" width="100%">
+                <img src="assets/img/success.gif" alt="Registration Successful" class="img-responsive" width="100%">
             </div>
             <div>
               Your Free registration was successful <a href="mobile-business-training.php" class="btn btn-info" target="_top">Continue</a>
