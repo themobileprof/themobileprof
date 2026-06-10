@@ -21,7 +21,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lms.themobileprof.com/catalog/micro</loc>
+    <loc>https://themobileprof.com/#ngo-partnership</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

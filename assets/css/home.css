@@ -519,3 +519,90 @@ body.tmp-home {
     transform: none;
   }
 }
+
+/* NGO partnership form */
+.tmp-ngo {
+  padding: 6rem 0;
+  background: #fff;
+  border-top: 1px solid var(--tmp-cream-dark);
+}
+
+.tmp-ngo h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: var(--tmp-ink);
+  margin-bottom: 1rem;
+}
+
+.tmp-ngo-intro {
+  font-size: 1.1rem;
+  color: var(--tmp-text-muted);
+  margin-bottom: 2rem;
+  max-width: 40rem;
+}
+
+.tmp-ngo-form {
+  background: var(--tmp-cream);
+  border-radius: var(--tmp-radius);
+  padding: 2rem;
+  box-shadow: var(--tmp-shadow);
+}
+
+.tmp-ngo-form label {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--tmp-ink-soft);
+  margin-bottom: 0.35rem;
+}
+
+.tmp-ngo-form .form-control {
+  font-family: var(--font-ui);
+  border-radius: 8px;
+  border-color: rgba(12, 18, 34, 0.15);
+  margin-bottom: 0.25rem;
+}
+
+.tmp-ngo-form .form-group {
+  margin-bottom: 1.25rem;
+}
+
+.tmp-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.35rem;
+}
+
+.tmp-check {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  cursor: pointer;
+}
+
+.tmp-honeypot {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+}
+
+.tmp-ngo-fineprint {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--tmp-text-muted);
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.tmp-ngo-fineprint a {
+  color: var(--tmp-teal);
+}

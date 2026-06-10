@@ -109,6 +109,7 @@
         <ul class="navbar-nav ml-auto align-items-lg-center">
           <li class="nav-item"><a class="nav-link" href="#renaissance">Our Story</a></li>
           <li class="nav-item"><a class="nav-link" href="#paths">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ngo-partnership">NGO Partners</a></li>
           <li class="nav-item"><a class="nav-link" href="training.html">Programs</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -272,6 +273,115 @@
     </div>
   </section>
 
+  <section class="tmp-ngo" id="ngo-partnership">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <p class="tmp-section-label">Partnership program</p>
+          <h2>Free 2-day live training for select NGOs</h2>
+          <p class="tmp-ngo-intro">
+            We partner with youth-focused NGOs to deliver complimentary on-site or virtual training—Linux, DevOps, mobile productivity, and more. Tell us about your organization and the communities you serve.
+          </p>
+
+          <div id="ngo-form-alert" class="alert d-none" role="alert"></div>
+
+          <form id="ngo-interest-form" class="tmp-ngo-form" novalidate>
+            <input type="text" name="websiteUrl" class="tmp-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label for="organizationName">Organization name *</label>
+                <input type="text" class="form-control" id="organizationName" name="organizationName" required maxlength="255">
+              </div>
+              <div class="col-md-6 form-group">
+                <label for="organizationType">Organization type *</label>
+                <select class="form-control" id="organizationType" name="organizationType" required>
+                  <option value="">Select type</option>
+                  <option value="youth_empowerment">Youth empowerment</option>
+                  <option value="education">Education NGO</option>
+                  <option value="community_development">Community development</option>
+                  <option value="faith_based">Faith-based organization</option>
+                  <option value="women_girls">Women &amp; girls</option>
+                  <option value="disability_inclusion">Disability inclusion</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label for="contactName">Contact person *</label>
+                <input type="text" class="form-control" id="contactName" name="contactName" required maxlength="200">
+              </div>
+              <div class="col-md-6 form-group">
+                <label for="contactEmail">Email *</label>
+                <input type="email" class="form-control" id="contactEmail" name="contactEmail" required>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 form-group">
+                <label for="contactPhone">Phone</label>
+                <input type="tel" class="form-control" id="contactPhone" name="contactPhone" maxlength="50">
+              </div>
+              <div class="col-md-4 form-group">
+                <label for="country">Country *</label>
+                <input type="text" class="form-control" id="country" name="country" required maxlength="100" placeholder="e.g. Nigeria">
+              </div>
+              <div class="col-md-4 form-group">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" name="city" maxlength="100">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="website">Organization website</label>
+              <input type="url" class="form-control" id="website" name="website" placeholder="https://">
+            </div>
+
+            <div class="form-group">
+              <label for="missionSummary">Introduce your organization *</label>
+              <textarea class="form-control" id="missionSummary" name="missionSummary" rows="4" required minlength="20" maxlength="5000" placeholder="Who do you serve? What is your mission? Why is mobile-first tech training important for your beneficiaries?"></textarea>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label for="beneficiariesEstimate">Approx. number of youth served annually</label>
+                <input type="number" class="form-control" id="beneficiariesEstimate" name="beneficiariesEstimate" min="1" max="1000000">
+              </div>
+              <div class="col-md-6 form-group">
+                <label>Training topics of interest</label>
+                <div class="tmp-topic-grid">
+                  <label class="tmp-check"><input type="checkbox" name="trainingTopics" value="linux_devops"> Linux / DevOps</label>
+                  <label class="tmp-check"><input type="checkbox" name="trainingTopics" value="mobile_productivity"> Mobile productivity</label>
+                  <label class="tmp-check"><input type="checkbox" name="trainingTopics" value="python_programming"> Python</label>
+                  <label class="tmp-check"><input type="checkbox" name="trainingTopics" value="cloud_computing"> Cloud computing</label>
+                  <label class="tmp-check"><input type="checkbox" name="trainingTopics" value="cybersecurity"> Cybersecurity</label>
+                  <label class="tmp-check"><input type="checkbox" name="trainingTopics" value="web_development"> Web development</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="availabilityNotes">Preferred dates or availability</label>
+              <textarea class="form-control" id="availabilityNotes" name="availabilityNotes" rows="2" maxlength="2000" placeholder="e.g. Weekends in Q3, or flexible for virtual sessions"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Anything else we should know?</label>
+              <textarea class="form-control" id="message" name="message" rows="2" maxlength="3000"></textarea>
+            </div>
+
+            <button type="submit" class="tmp-btn-primary" id="ngo-submit-btn">
+              Submit interest <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </button>
+            <p class="tmp-ngo-fineprint">We review every submission. Selected partners receive 2 days of live training at no cost. You can also email <a href="mailto:info@themobileprof.com">info@themobileprof.com</a> directly.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="tmp-cta">
     <div class="container">
       <h2>Join the renaissance</h2>
@@ -311,6 +421,7 @@
 
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/ngo-form.js"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 
